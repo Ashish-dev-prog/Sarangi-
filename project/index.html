@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarangi Consulting | Growth & Management Consulting</title>
+    <meta name="description" content="Helping startups, MSMEs, SMEs, and growth-stage organizations achieve sustainable growth through strategy, transformation, operational excellence, and execution-focused advisory services.">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================================
+         MINIMAL STICKY HEADER (BCG Style)
+         ============================================================ -->
+    <header class="bcg-header" id="bcg-header">
+        <div class="bcg-header-left">
+            <button class="burger-btn" id="burger-btn" aria-label="Open Menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+            <a href="#" class="bcg-logo" id="bcg-logo">
+                <svg class="logo-mark" width="36" height="36" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+                    <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" />
+                    <line x1="10" y1="30" x2="90" y2="70" />
+                </svg>
+                <span class="logo-text-main">SARANGI</span>
+            </a>
+        </div>
+        <div class="bcg-header-right">
+            <a href="#startup-advisory" class="header-cta-btn" id="header-book-btn">BOOK SESSION</a>
+        </div>
+    </header>
+
+    <!-- ============================================================
+         MEGA MENU OVERLAY (BCG Style)
+         ============================================================ -->
+    <div class="mega-menu-overlay" id="mega-menu">
+        <div class="mega-menu-header">
+            <div class="bcg-header-left">
+                <button class="burger-btn active" id="close-menu-btn" aria-label="Close Menu">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+                <a href="#" class="bcg-logo">
+                    <svg class="logo-mark" width="36" height="36" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+                        <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" />
+                        <line x1="10" y1="30" x2="90" y2="70" />
+                    </svg>
+                    <span class="logo-text-main">SARANGI</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="mega-search-bar">
+            <i class="fas fa-search mega-search-icon"></i>
+            <input type="text" class="mega-search-input" id="mega-search-input" placeholder="Type to search" autocomplete="off">
+        </div>
+
+        <!-- Primary Navigation -->
+        <nav class="mega-nav" id="mega-nav-primary">
+            <div class="mega-nav-section">
+                <h3 class="mega-nav-category-title">Our Services</h3>
+                <a href="#" class="mega-nav-link has-submenu" data-submenu="services-sub">
+                    <span>Consulting Services</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="#" class="mega-nav-link has-submenu" data-submenu="industries-sub">
+                    <span>Industries</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="#" class="mega-nav-link has-submenu" data-submenu="advisory-sub">
+                    <span>Startup Advisory</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="mega-nav-divider"></div>
+            <div class="mega-nav-section">
+                <a href="about.html" class="mega-nav-link mega-nav-link-bold">
+                    <span>About Us</span>
+                </a>
+            </div>
+            <div class="mega-nav-divider"></div>
+            <div class="mega-nav-section">
+                <a href="insights.html" class="mega-nav-link mega-nav-link-bold">
+                    <span>Our Insights</span>
+                </a>
+            </div>
+            <div class="mega-nav-divider"></div>
+            <div class="mega-nav-section">
+                <a href="contact.html" class="mega-nav-link mega-nav-link-bold">
+                    <span>Contact</span>
+                </a>
+            </div>
+            <div class="mega-nav-divider"></div>
+            <div class="mega-nav-section">
+                <a href="careers.html" class="mega-nav-link mega-nav-link-bold">
+                    <span>Careers</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Sub-menus (hidden by default) -->
+        <!-- Services Sub-menu -->
+        <nav class="mega-submenu" id="services-sub">
+            <button class="mega-back-btn" data-back="mega-nav-primary">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </button>
+            <h3 class="mega-submenu-title">Consulting Services</h3>
+            <div class="mega-submenu-grid">
+                <a href="services-strategy.html" class="mega-submenu-link">Strategy & Growth Consulting</a>
+                <a href="services-startup.html" class="mega-submenu-link">Startup Advisory</a>
+                <a href="services-operations.html" class="mega-submenu-link">Operations Consulting</a>
+                <a href="services-marketing.html" class="mega-submenu-link">Marketing & Growth</a>
+                <a href="services-digital.html" class="mega-submenu-link">Digital Transformation</a>
+                <a href="services-leadership.html" class="mega-submenu-link">Organization & Leadership</a>
+                <a href="services-financial.html" class="mega-submenu-link">Financial Advisory</a>
+                <a href="services-project.html" class="mega-submenu-link">Project Management</a>
+            </div>
+        </nav>
+
+        <!-- Industries Sub-menu -->
+        <nav class="mega-submenu" id="industries-sub">
+            <button class="mega-back-btn" data-back="mega-nav-primary">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </button>
+            <h3 class="mega-submenu-title">Industries</h3>
+            <div class="mega-submenu-grid">
+                <a href="industry-tech.html" class="mega-submenu-link">Technology & SaaS</a>
+                <a href="industry-manufacturing.html" class="mega-submenu-link">Manufacturing</a>
+                <a href="industry-retail.html" class="mega-submenu-link">Retail & E-commerce</a>
+                <a href="industry-services.html" class="mega-submenu-link">Professional Services</a>
+                <a href="industry-healthcare.html" class="mega-submenu-link">Healthcare</a>
+                <a href="industry-hospitality.html" class="mega-submenu-link">Hospitality</a>
+                <a href="industry-startups.html" class="mega-submenu-link">Startups</a>
+                <a href="industry-msmes.html" class="mega-submenu-link">MSMEs</a>
+                <a href="industry-family.html" class="mega-submenu-link">Family Businesses</a>
+                <a href="industry-corporate.html" class="mega-submenu-link">Corporate Organizations</a>
+            </div>
+        </nav>
+
+        <!-- Advisory Sub-menu -->
+        <nav class="mega-submenu" id="advisory-sub">
+            <button class="mega-back-btn" data-back="mega-nav-primary">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </button>
+            <h3 class="mega-submenu-title">Startup Advisory</h3>
+            <div class="mega-submenu-grid">
+                <a href="advisory-booking.html" class="mega-submenu-link">Book 1-on-1 Session (₹999)</a>
+                <a href="advisory-growth.html" class="mega-submenu-link">Growth Advisory</a>
+                <a href="advisory-fundraising.html" class="mega-submenu-link">Fundraising Readiness</a>
+                <a href="advisory-pitch.html" class="mega-submenu-link">Investor Pitch Support</a>
+                <a href="advisory-mentorship.html" class="mega-submenu-link">Founder Mentorship</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ============================================================
+         1. HERO SECTION (Full Viewport, BCG Style)
+         ============================================================ -->
+    <section class="bcg-hero" id="hero-section">
+        <div class="hero-gradient-bg"></div>
+        <div class="hero-grain-overlay"></div>
+        
+        <div class="bcg-hero-content">
+            <span class="hero-welcome-label">WELCOME TO SARANGI CONSULTING</span>
+            <h1 class="bcg-hero-title">Building Businesses<br>for Tomorrow.</h1>
+            <p class="bcg-hero-subtitle">We're built for leaders who need more than advice.</p>
+            <a href="services.html" class="bcg-hero-cta">
+                <span>SEE HOW WE WORK</span>
+            </a>
+        </div>
+
+        <!-- Video Pause Button -->
+        <button class="hero-pause-btn" id="hero-pause-btn" aria-label="Pause animation">
+            <i class="fas fa-pause"></i>
+        </button>
+    </section>
+
+    <!-- ============================================================
+         2. BEYOND STRATEGY SECTION
+         ============================================================ -->
+    <section class="beyond-section" id="beyond-section">
+        <div class="container">
+            <h2 class="beyond-title reveal-up">Beyond Strategy. Real Impact.</h2>
+            <p class="beyond-subtitle reveal-up">We turn ambition into outcomes that matter — building capabilities, driving operational excellence, and working shoulder to shoulder with clients to deliver transformative growth.</p>
+        </div>
+        
+        <div class="impact-carousel reveal-up">
+            <div class="impact-cards-track">
+                <div class="impact-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600" alt="Strategy Growth" class="impact-card-img">
+                    <div class="impact-card-badge">
+                        <span class="impact-number">30+</span>
+                        <span class="impact-label">CLIENTS<br>ADVISED</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600" alt="Industries Served" class="impact-card-img">
+                    <div class="impact-card-badge">
+                        <span class="impact-number">15+</span>
+                        <span class="impact-label">INDUSTRIES<br>SERVED</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Growth Delivered" class="impact-card-img">
+                    <div class="impact-card-badge">
+                        <span class="impact-number">3X</span>
+                        <span class="impact-label">AVERAGE GROWTH<br>DELIVERED</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600" alt="Execution Focused" class="impact-card-img">
+                    <div class="impact-card-badge">
+                        <span class="impact-number">100%</span>
+                        <span class="impact-label">EXECUTION<br>FOCUSED</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         3. SARANGI ANSWER SECTION (BCG Answer Style)
+         ============================================================ -->
+    <section class="answer-section" id="answer-section">
+        <div class="container">
+            <div class="answer-card reveal-up">
+                <div class="answer-content">
+                    <span class="answer-label">SARANGI ADVISORY</span>
+                    <p class="answer-text">Get direct answers to your most important business challenges. Book a personalized 1-on-1 advisory session with RC Sarangi — strategy, growth, and execution guidance for ₹999/60 min.</p>
+                    <a href="advisory-booking.html" class="answer-cta">
+                        <span>BOOK A SESSION</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         4. LEAD WITH ADVANTAGE (Capability Highlights)
+         ============================================================ -->
+    <section class="advantage-section" id="advantage-section">
+        <div class="container">
+            <div class="advantage-grid">
+                <div class="advantage-image reveal-up">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=600" alt="Leadership Meeting" class="advantage-img">
+                </div>
+                <div class="advantage-card reveal-up">
+                    <div class="advantage-card-inner">
+                        <span class="advantage-card-label">LEAD WITH ADVANTAGE</span>
+                        <h3 class="advantage-card-title">Strategy &<br>Execution<br>at Scale</h3>
+                        <a href="services.html" class="advantage-card-cta">
+                            <span>NAVIGATE WHAT'S NEXT</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="advantage-card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         5. ABOUT / FOUNDER SECTION
+         ============================================================ -->
+    <section class="founder-section" id="founder-section">
+        <div class="container">
+            <div class="founder-grid">
+                <div class="founder-content reveal-up">
+                    <span class="section-label">ABOUT SARANGI CONSULTING</span>
+                    <h2 class="founder-heading">A Consulting Firm Focused on Growth, Transformation, and Execution.</h2>
+                    <p class="founder-desc">We combine high-level strategic thinking with hands-on execution. We don't just hand you a strategy document — we partner with you to ensure that the vision turns into measurable results.</p>
+                    <a href="about.html" class="outline-cta-btn">
+                        <span>LEARN MORE ABOUT US</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="founder-cards reveal-up">
+                    <div class="founder-card-item">
+                        <img src="founder.jpg" alt="RC Sarangi" class="founder-card-img">
+                        <div class="founder-card-info">
+                            <h4>RC Sarangi</h4>
+                            <p>Founder & Group CEO</p>
+                            <a href="#" class="founder-social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="founder-card-item">
+                        <img src="developer.jpg" alt="Aditya Singh Saini" class="founder-card-img">
+                        <div class="founder-card-info">
+                            <h4>Aditya Singh Saini</h4>
+                            <p>Developer</p>
+                            <a href="https://www.linkedin.com/in/aditya-singh-saini-a3654731b/" target="_blank" class="founder-social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         6. FEATURED INSIGHTS
+         ============================================================ -->
+    <section class="insights-section" id="insights-section">
+        <div class="container">
+            <div class="insights-header reveal-up">
+                <h2 class="insights-heading">Featured Insights</h2>
+                <a href="insights.html" class="insights-view-all">
+                    <span>VIEW ALL</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="insights-grid">
+                <article class="insight-card reveal-up">
+                    <div class="insight-card-img" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-card-content">
+                        <span class="insight-card-tag">Business Strategy</span>
+                        <h4 class="insight-card-title">Navigating Uncertainty: Strategic Resilience in 2026</h4>
+                        <p class="insight-card-excerpt">How top-performing organizations build adaptive business models to withstand economic turbulence.</p>
+                        <span class="insight-card-meta">May 12, 2026 • 5 min read</span>
+                    </div>
+                </article>
+                
+                <article class="insight-card reveal-up">
+                    <div class="insight-card-img" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-card-content">
+                        <span class="insight-card-tag">Startup Growth</span>
+                        <h4 class="insight-card-title">The Founder's Dilemma: Scaling vs. Profitability</h4>
+                        <p class="insight-card-excerpt">Analyzing the optimal growth velocity for early-stage startups without compromising unit economics.</p>
+                        <span class="insight-card-meta">April 28, 2026 • 7 min read</span>
+                    </div>
+                </article>
+                
+                <article class="insight-card reveal-up">
+                    <div class="insight-card-img" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-card-content">
+                        <span class="insight-card-tag">Digital Transformation</span>
+                        <h4 class="insight-card-title">Legacy to Cloud: A Framework for MSMEs</h4>
+                        <p class="insight-card-excerpt">A pragmatic guide for traditional businesses taking their first steps towards digitalization.</p>
+                        <span class="insight-card-meta">April 15, 2026 • 6 min read</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         7. NEWSLETTER / SUBSCRIBE
+         ============================================================ -->
+    <section class="subscribe-section" id="subscribe-section">
+        <div class="container">
+            <div class="subscribe-box reveal-up">
+                <h3 class="subscribe-heading">Get the latest industry insights delivered to you</h3>
+                <form class="subscribe-form" id="subscribe-form">
+                    <input type="email" class="subscribe-input" placeholder="Your email address" required>
+                    <button type="submit" class="subscribe-btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         8. FOOTER (BCG Style)
+         ============================================================ -->
+    <footer class="bcg-footer">
+        <div class="container">
+            <div class="footer-top">
+                <h2 class="footer-tagline">Unlocking the Potential of Those Who Advance the World.</h2>
+                <div class="footer-quick-links">
+                    <a href="about.html">About</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#subscribe-section">Subscribe</a>
+                </div>
+            </div>
+            
+            <div class="footer-social-bar">
+                <span class="footer-social-label">FOLLOW SARANGI CONSULTING</span>
+                <div class="footer-social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-bar">
+                <p>© 2026 Sarangi Consulting. A Sarangi Group Initiative.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

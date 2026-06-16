@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sarangi Consulting - Building Businesses for Tomorrow</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Montserrat:wght@700;800&amp;family=Poppins:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-container": "#baebc7",
+                    "inverse-primary": "#96d5a3",
+                    "tertiary-container": "#005422",
+                    "secondary-fixed-dim": "#a2d2af",
+                    "on-error": "#ffffff",
+                    "surface-container": "#f0edec",
+                    "primary": "#003b1b",
+                    "secondary": "#3b684b",
+                    "on-primary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#ebe7e7",
+                    "on-background": "#1c1b1b",
+                    "surface-dim": "#dcd9d9",
+                    "on-tertiary-fixed-variant": "#005321",
+                    "surface": "#fcf9f8",
+                    "on-surface": "#1c1b1b",
+                    "on-secondary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed-variant": "#234f35",
+                    "outline-variant": "#c0c9be",
+                    "surface-bright": "#fcf9f8",
+                    "inverse-surface": "#313030",
+                    "on-primary-container": "#87c695",
+                    "primary-fixed": "#b1f2be",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#35d168",
+                    "surface-container-low": "#f6f3f2",
+                    "tertiary": "#003a16",
+                    "inverse-on-surface": "#f3f0ef",
+                    "surface-tint": "#2e6a41",
+                    "tertiary-fixed-dim": "#4ae176",
+                    "outline": "#717970",
+                    "on-primary-fixed": "#00210d",
+                    "on-secondary-fixed": "#00210f",
+                    "background": "#fcf9f8",
+                    "surface-variant": "#e5e2e1",
+                    "secondary-fixed": "#bdeeca",
+                    "primary-container": "#14532d",
+                    "on-surface-variant": "#404941",
+                    "on-tertiary-fixed": "#002109",
+                    "on-primary-fixed-variant": "#12512c",
+                    "tertiary-fixed": "#6bff8f",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-container": "#406c4f",
+                    "surface-container-highest": "#e5e2e1",
+                    "primary-fixed-dim": "#96d5a3"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "container-max-width": "1280px",
+                    "margin-desktop": "80px",
+                    "section-mobile": "60px",
+                    "gutter": "24px",
+                    "section-desktop": "96px"
+            },
+            "fontFamily": {
+                    "display-h1-mobile": ["Montserrat"],
+                    "headline-h2": ["Montserrat"],
+                    "stat-display": ["Poppins"],
+                    "body-lg": ["Inter"],
+                    "label-caps": ["Inter"],
+                    "headline-h3": ["Montserrat"],
+                    "display-h1": ["Montserrat"],
+                    "body-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "display-h1-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "800"}],
+                    "headline-h2": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "stat-display": ["48px", {"lineHeight": "1.0", "fontWeight": "700"}],
+                    "body-lg": ["15px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-caps": ["11px", {"lineHeight": "1.0", "letterSpacing": "0.18em", "fontWeight": "600"}],
+                    "headline-h3": ["20px", {"lineHeight": "1.4", "fontWeight": "700"}],
+                    "display-h1": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-sm": ["13px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-lg antialiased">
+<!-- 1. Announcement Bar -->
+<div class="bg-on-background text-surface h-[40px] flex items-center justify-center px-4">
+<div class="flex items-center gap-4">
+<span class="font-body-sm text-body-sm">Special Offer: 30-Minute Growth Strategy Session</span>
+<a class="bg-primary hover:bg-primary-container text-on-primary font-label-caps text-label-caps px-4 py-1.5 rounded-full transition-colors" href="#">Book Now</a>
+</div>
+</div>
+<!-- 2. Sticky Navbar -->
+<nav class="bg-surface docked full-width top-0 sticky border-b border-outline-variant z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-container-max-width mx-auto h-20">
+<!-- Brand Logo -->
+<div class="flex items-center gap-3">
+<img alt="Sarangi Consulting Logo" class="h-8 w-8 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMGcDVFR4y0G9VsA3egIM8Edzlct-QboNKgllYJh9TTPibSeJ7qvR79Z5-t-j6z33AMuMjsPHfBoygSEy8lOV_hr9XO5ZYf3GXRHcJQvltZScTweRNOe_rGoxDHSquvbGubkEFmv2QQO3yiluoAcP-wjK9SwCRiiKy3nfZ2znzmIbFLB19BfLlAWR-1ABBePbCEM8zCiZdhqGd56O1fHWDhW-AsOi6H-7pxTD7c_e5zu4lQZgBi-Y-1G-lTPMcWX8kv6ZGMdcO0pI"/>
+<a class="font-headline-h3 text-headline-h3 font-extrabold text-primary" href="#">Sarangi Consulting</a>
+</div>
+<!-- Navigation Links (Web) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 opacity-90 transition-opacity duration-150 font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Industries</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Why Choose</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Framework</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Advisory</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:bg-surface-container-low transition-all duration-200" href="#">Insights</a>
+</div>
+<!-- Trailing Action -->
+<div class="hidden md:flex items-center">
+<button class="bg-primary hover:bg-primary-container text-on-primary font-body-lg text-body-lg rounded px-[22px] py-[10px] transition-colors font-medium">Get Started</button>
+</div>
+</div>
+</nav>
+<!-- 3. Hero -->
+<section class="bg-primary text-on-primary pt-24 pb-section-desktop px-margin-desktop">
+<div class="max-w-container-max-width mx-auto grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<!-- Left Content -->
+<div class="flex flex-col gap-6">
+<span class="font-label-caps text-label-caps text-inverse-primary tracking-widest uppercase">Growth &amp; Management Consulting</span>
+<h1 class="font-display-h1 text-display-h1">Building Businesses for Tomorrow.</h1>
+<p class="font-body-lg text-body-lg text-surface-variant max-w-lg">We architect sustainable growth strategies for ambitious enterprises. Our systemic approach transforms operational complexities into competitive advantages.</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-on-primary text-primary font-body-lg text-body-lg rounded px-[22px] py-[10px] font-medium hover:bg-surface-variant transition-colors">Partner With Us</button>
+<button class="border border-on-primary text-on-primary font-body-lg text-body-lg rounded px-[22px] py-[10px] font-medium hover:bg-surface-tint transition-colors">View Framework</button>
+</div>
+<div class="pt-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-inverse-primary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="font-body-sm text-body-sm text-surface-variant">Trusted by Fortune 500 companies globally.</span>
+</div>
+</div>
+<!-- Right Content: Floating Metric Card -->
+<div class="relative flex justify-center lg:justify-end mt-12 lg:mt-0">
+<div class="bg-surface/10 backdrop-blur-md border border-surface/20 rounded-xl p-8 w-full max-w-md shadow-2xl">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-surface-variant">Average Revenue Growth</span>
+<span class="material-symbols-outlined text-inverse-primary">trending_up</span>
+</div>
+<span class="font-stat-display text-stat-display text-on-primary">3X</span>
+<div class="w-full bg-surface/20 rounded-full h-2 mt-4">
+<div class="bg-inverse-primary h-2 rounded-full w-[75%]"></div>
+</div>
+<span class="font-body-sm text-body-sm text-surface-variant mt-2 text-right">Across client portfolio</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Stats Strip -->
+<section class="bg-surface py-12 px-margin-desktop border-b border-outline-variant">
+<div class="max-w-container-max-width mx-auto">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-outline-variant">
+<div class="flex flex-col items-center justify-center text-center px-4">
+<span class="font-stat-display text-stat-display text-primary">30+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">Global Markets</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4">
+<span class="font-stat-display text-stat-display text-primary">15+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">Years Expertise</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4">
+<span class="font-stat-display text-stat-display text-primary">3X</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">ROI Average</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4">
+<span class="font-stat-display text-stat-display text-primary">₹999</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">Advisory Starting</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 14. Footer -->
+<footer class="bg-primary text-on-primary-fixed">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-desktop max-w-container-max-width mx-auto">
+<!-- Brand Column -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<span class="font-headline-h3 text-headline-h3 font-bold text-on-primary">Sarangi Consulting</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container opacity-80 max-w-xs mt-2">Building businesses for tomorrow through systemic architecture and sustainable strategies.</p>
+</div>
+<!-- Links Columns -->
+<div class="flex flex-col gap-4">
+<span class="font-label-caps text-label-caps text-on-primary">Company</span>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">About Us</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Leadership</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Careers</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-caps text-label-caps text-on-primary">Services</span>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Strategy</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Operations</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Digital</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-caps text-label-caps text-on-primary">Contact</span>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Get in Touch</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Locations</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Support</a>
+</div>
+</div>
+<!-- Copyright Strip -->
+<div class="border-t border-surface-tint">
+<div class="px-margin-desktop py-6 max-w-container-max-width mx-auto flex justify-between items-center">
+<p class="font-body-sm text-body-sm text-on-primary-container opacity-80">© 2024 Sarangi Consulting. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Privacy Policy</a>
+<a class="font-body-sm text-body-sm text-on-primary-container opacity-80 hover:opacity-100 hover:text-secondary-fixed transition-colors duration-200" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
